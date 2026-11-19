@@ -1,0 +1,186 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #182747;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #c5b4e3;
+}
+
+/* Home Page Hero Section */
+.hero {
+    background-color: #e9e5f2;
+    padding: 85px 8%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 38px;
+    color: #182747;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 17px;
+    color: #555555;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #5b4b8a;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #403465;
+}
+
+/* Page Header */
+.page-header {
+    background-color: #e9e5f2;
+    padding: 55px 8%;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: #182747;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Content Sections */
+.content-section {
+    background-color: white;
+    margin: 30px 8%;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.content-section h2 {
+    color: #182747;
+    margin-bottom: 15px;
+}
+
+.content-section p {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+.objective-list {
+    padding-left: 25px;
+}
+
+.objective-list li {
+    margin-bottom: 10px;
+}
+
+/* Research Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 8%;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 230px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #5b4b8a;
+    margin-bottom: 10px;
+}
+
+/* Notice Box */
+.notice-box {
+    background-color: #f0edf7;
+    border-left: 5px solid #5b4b8a;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.notice-box h3 {
+    color: #182747;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #182747;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .content-section {
+        margin: 20px 5%;
+        padding: 20px;
+    }
+}
