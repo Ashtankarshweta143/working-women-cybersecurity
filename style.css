@@ -184,3 +184,10 @@ footer {
         padding: 20px;
     }
 }
+/* Improve page spacing */
+.content-section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
